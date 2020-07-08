@@ -1,10 +1,3 @@
-RHEL 7 CIS STIG
-================
-
-[![Build Status](https://travis-ci.org/MindPointGroup/RHEL7-CIS.svg?branch=devel)](https://travis-ci.org/MindPointGroup/RHEL7-CIS)
-[![Ansible Role](https://img.shields.io/ansible/role/16089.svg)](https://galaxy.ansible.com/MindPointGroup/RHEL7-CIS/)
-
-Configure RHEL/Centos 7 machine to be [CIS](https://www.cisecurity.org/cis-benchmarks/) compliant. Level 1 and 2 findings will be corrected by default.
 
 This role **will make changes to the system** that could break things. This is not an auditing tool but rather a remediation tool to be used after an audit has been conducted.
 
@@ -17,12 +10,8 @@ If you want to install this via the `ansible-galaxy` command you'll need to run 
 With this in the file requirements.yml:
 
 ```
-- src: https://github.com/MindPointGroup/RHEL7-CIS.git
+- src: https://github.com/shreyaverma2797/HealthCheck
 ```
-
-Based on [CIS RedHat Enterprise Linux 7 Benchmark v2.1.1 - 01-31-2017 ](https://community.cisecurity.org/collab/public/index.php).
-
-This repo originated from work done by [Sam Doran](https://github.com/samdoran/ansible-role-stig)
 
 Requirements
 ------------
